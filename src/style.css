@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
 body {
@@ -10,14 +19,43 @@ body {
   /* background-image: '../public/pexels-andrew-jones-8599621.jpg'; */
   background-image: url('/pexels-andrew-jones-8599621.jpg');
   background-position-x: center;
-  background-position-y: 10%;
+  background-position-y: 20%;
   background-size: cover;
   background-attachment: fixed;
 }
 
-h1 {
+/* h1 {
   font-size: 3.2em;
   line-height: 1.1;
+} */
+
+.background-placeholder {
+  position:fixed;
+  bottom: 2em;
+  left: 3em;
+  /* max-height: 180px; */
+  /* max-width: 1100px; */
+  /* width: 90%; */
+}
+
+.welcome-page {
+  position:relative;
+  font-family: 'Inika', serif;
+}
+
+.welcome-page .header-text {
+  font-size: 3.4em;
+  font-weight: 400;
+  /* word-spacing: 0.5em; */
+  letter-spacing: 0.3em;
+  color: #ffffff;
+  text-shadow: 5px 5px 5px black;
+}
+
+.navigation-meny {
+  display: flex;
+  flex-direction: row;
+  margin: 1em auto;
 }
 
 button {
@@ -41,13 +79,6 @@ button:focus-visible {
 
 .card {
   padding: 2em;
-}
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
 @media (prefers-color-scheme: light) {
