@@ -1,6 +1,6 @@
 <template>
   <div class="welcome-page" >
-    <h1 class="header-text" >MJ TRAINING CAMP</h1>
+    <h1 class="header-text" @click="toggleWelcomeText" >MJ TRAINING CAMP</h1>
     <div class="navigation-meny">
       <button @click="toggleWelcomeText" >
         <h4 class="meny-val">Om Oss</h4>

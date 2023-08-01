@@ -29,9 +29,9 @@
   .welcome-info {
     z-index: 1;
     position: absolute;
-    width: 80%;
-    margin-top: 5%;
-    margin-left: 5%;
+    width: 78%;
+    margin-top: 4%;
+    margin-left: 7%;
   }
 
   .welcome-info-text {

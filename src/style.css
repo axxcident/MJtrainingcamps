@@ -46,10 +46,19 @@ body {
 .welcome-page .header-text {
   font-size: 3.4em;
   font-weight: 400;
-  /* word-spacing: 0.5em; */
   letter-spacing: 0.3em;
   color: #ffffff;
   text-shadow: 2px 2px 3px black;
+}
+
+.header-text {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.header-text:hover {
+  font-size: 3.55em;
+  transform: translate(-2px, -2px);
 }
 
 .navigation-meny {
@@ -59,7 +68,6 @@ body {
   margin: 1em auto;
   max-width: 950px;
 }
-
 
 button {
   border-color: transparent;
