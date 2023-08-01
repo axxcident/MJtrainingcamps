@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-// Vue script code goes here
+// Vue script
 </script>
 
 <style scoped>

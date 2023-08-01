@@ -5,7 +5,8 @@ import Nav from './components/Nav.vue'
 </script>
 
 <template>
-  <Nav message="Mentos + Cola" />
+  <Nav />
+  <!-- <Nav message="Mentos + Cola" /> -->
   <!-- <Navigation msg="Mentos + Cola" /> -->
   <!-- <div>
     <a href="https://vitejs.dev" target="_blank">

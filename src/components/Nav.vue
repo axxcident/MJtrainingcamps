@@ -2,26 +2,31 @@
   <div class="welcome-page" >
     <h1 class="header-text" >MJ TRAINING CAMP</h1>
     <div class="navigation-meny">
-      <a href="#">
+      <button @click="toggleWelcomeText" >
         <h4 class="meny-val">Om Oss</h4>
-      </a>
-      <a href="#">
+      </button>
+      <button @click="toggleWelcomeText" >
         <h4 class="meny-val">Träningsanläggningen</h4>
-      </a>
-      <a href="#">
+      </button>
+      <button @click="toggleWelcomeText" >
         <h4 class="meny-val">Phuket</h4>
-      </a>
-      <a href="#">
+      </button>
+      <button @click="toggleWelcomeText" >
         <h4 class="meny-val">Boka</h4>
-      </a>
+      </button>
     </div>
-    <yellowPlank />
-    <!-- <img src="../assets/yellowPlank.svg" class="background-placeholder" alt="background placeholder" /> -->
+    <yellowPlank v-if="welcomeText" />
   </div>
 </template>
 
 <script setup>
 import yellowPlank from './yellowPlank.vue'
+import { ref } from 'vue'
+const welcomeText = ref(true)
+const toggleWelcomeText = () => {
+  welcomeText.value = !welcomeText.value;
+}
+
     // <p>hej</p>
     // <p>{{count}}</p>
     // <button @click="count++">Increment Count</button>
