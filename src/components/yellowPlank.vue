@@ -17,6 +17,11 @@
 
 <style scoped>
 
+  .page-1 {
+    /* position:relative; */
+    font-family: 'Inika', serif;
+  }
+
   .background-placeholder {
     z-index: 0;
   }
@@ -24,7 +29,10 @@
   .welcome-info-flex {
     display: flex;
     justify-content: space-around;
-    /* width: 600px; */
+    max-width: 93%;
+    margin: 0px 60px;
+    /* ÖKA MARGIN STÖRRE ÄN 1650px width */
+    /* MINSKA TEXT MINDRE ÄN 1000px width */
   }
   .welcome-info {
     z-index: 1;

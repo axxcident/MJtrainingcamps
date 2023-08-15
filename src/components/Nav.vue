@@ -15,8 +15,8 @@
         <h4 class="meny-val">Boka</h4>
       </button>
     </div>
-    <yellowPlank v-if="welcomeText" />
   </div>
+  <yellowPlank v-if="welcomeText" />
 </template>
 
 <script setup>
@@ -45,5 +45,12 @@ const toggleWelcomeText = () => {
 </script>
 
 <style scoped>
+
+.welcome-page {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
 
 </style>
