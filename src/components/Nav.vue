@@ -17,14 +17,19 @@
     </div>
   </div>
   <yellowPlank v-if="welcomeText" />
+  <AboutUs v-if="AboutUsText" />
 </template>
 
 <script setup>
 import yellowPlank from './yellowPlank.vue'
+import AboutUs from './AboutUs.vue';
+
 import { ref } from 'vue'
 const welcomeText = ref(true)
+const AboutUsText = ref(false)
 const toggleWelcomeText = () => {
   welcomeText.value = !welcomeText.value;
+  AboutUsText.value = !AboutUsText.value;
 }
 
     // <p>hej</p>

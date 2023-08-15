@@ -84,5 +84,6 @@
     text-shadow: 2px 2px 3px black;
     font-size: 1.6em;
     font-weight: 600;
+    text-align: center;
   }
 </style>
