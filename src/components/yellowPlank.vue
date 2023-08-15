@@ -1,4 +1,11 @@
 <template>
+  <div class="bubble-container">
+    <img src="../assets/yellowBubble.svg" alt="yellow ellipse">
+    <div class="bubble-text-container">
+      <p>DEL I<br>DUBBELRUM<br>21990:-</p>
+      <p>ENKELRUM<br>23990:-</p>
+    </div>
+  </div>
   <div class="page-1">
     <div class="welcome-info">
       <div class="welcome-info-flex">
@@ -16,6 +23,36 @@
 </script>
 
 <style scoped>
+
+  .bubble-container {
+    position: relative;
+  }
+
+  .bubble-container img {
+    position: absolute;
+    right: 25px;
+    top: 9rem;
+    z-index: 1;
+  }
+
+  .bubble-text-container {
+    height: 210px;
+    position: absolute;
+    right: 80px;
+    top: 10rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+
+  }
+
+  .bubble-text-container p {
+    text-align: center;
+    margin: 21px auto;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+  }
 
   .page-1 {
     /* position:relative; */
