@@ -8,6 +8,12 @@
       <img src="BeachGym.jpg" alt="exercise on beach" class="circular-image-1" />
       <!-- <img src="matteb.png" alt="Picture of coach"> -->
     </div>
+    <div class="circles-container-2">
+      <img src="indoorGym.jpg" alt="indoor gym" class="circular-image-2" />
+    </div>
+    <div class="circles-container-3">
+      <img src="young-beautiful-sportive-girl-training-boxing-seaside.jpg" alt="girl training boxing" class="circular-image-3" />
+    </div>
   </div>
 </template>
 
@@ -23,9 +29,29 @@
   .circles-container {
     position: fixed;
     left: 756px;
-    top: 560px;
+    top: 500px;
 
-    width: 235px; /* Adjust the width and height as needed */
+    width: 235px;
+    height: 235px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .circles-container-2 {
+    position: fixed;
+    left: 1137px;
+    top: 280px;
+
+    width: 235px;
+    height: 235px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .circles-container-3 {
+    position: fixed;
+    left: 1137px;
+    top: 650px;
+
+    width: 235px;
     height: 235px;
     overflow: hidden;
     border-radius: 50%;
@@ -39,6 +65,24 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+  .circular-image-2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  .circular-image-3 {
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -66%);
 }
 
   .location-square {
