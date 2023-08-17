@@ -4,13 +4,16 @@
       <h4>Tränings<br>anläggningen</h4>
       <p>I Phuket på X så har vi många aktiviteter förberedda åt er. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
     </div>
+    <h4 class="circles-container-text">Open Gym</h4>
     <div class="circles-container">
       <img src="BeachGym.jpg" alt="exercise on beach" class="circular-image-1" />
       <!-- <img src="matteb.png" alt="Picture of coach"> -->
     </div>
+    <h4 class="circles-container-text-2">AC Gym</h4>
     <div class="circles-container-2">
       <img src="indoorGym.jpg" alt="indoor gym" class="circular-image-2" />
     </div>
+    <h4 class="circles-container-text-3">Thai Boxning</h4>
     <div class="circles-container-3">
       <img src="young-beautiful-sportive-girl-training-boxing-seaside.jpg" alt="girl training boxing" class="circular-image-3" />
     </div>
@@ -36,6 +39,17 @@
     overflow: hidden;
     border-radius: 50%;
   }
+
+  .circles-container-text {
+    position: fixed;
+    left: 807px;
+    top: 464px;
+    font-family: 'Inika', serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+  }
   .circles-container-2 {
     position: fixed;
     left: 1137px;
@@ -46,6 +60,18 @@
     overflow: hidden;
     border-radius: 50%;
   }
+
+  .circles-container-text-2 {
+    position: fixed;
+    left: 1190px;
+    top: 240px;
+    font-family: 'Inika', serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+  }
+
   .circles-container-3 {
     position: fixed;
     left: 1137px;
@@ -55,6 +81,17 @@
     height: 235px;
     overflow: hidden;
     border-radius: 50%;
+  }
+
+  .circles-container-text-3 {
+    position: fixed;
+    left: 1154px;
+    top: 612px;
+    font-family: 'Inika', serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
   }
 
   .circular-image-1 {
