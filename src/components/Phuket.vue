@@ -22,7 +22,7 @@
   .google-maps-container {
     display: flex;
     flex-direction: column;
-    margin: 100px auto;
+    margin: 70px auto;
     width: 70%;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 52px;
