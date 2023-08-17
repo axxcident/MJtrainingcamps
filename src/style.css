@@ -24,6 +24,10 @@ body {
   background-attachment: fixed;
 }
 
+/* .active {
+  text-decoration: underline;
+} */
+
 .page-1 {
   position:fixed;
   top: 37em;
