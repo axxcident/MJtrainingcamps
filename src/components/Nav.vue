@@ -19,12 +19,14 @@
   <yellowPlank v-if="welcomeText" />
   <AboutUs v-if="AboutUsText" />
   <Location v-if="LocationText" />
+  <Phuket v-if="PhuketText" />
 </template>
 
 <script setup>
 import yellowPlank from './yellowPlank.vue'
 import AboutUs from './AboutUs.vue';
 import Location from './Location.vue';
+import Phuket from './Phuket.vue';
 
 import { ref } from 'vue'
 const welcomeText = ref(true)
@@ -34,8 +36,6 @@ const PhuketText = ref(false)
 const BookingText = ref(false)
 
 const toggleWelcomeText = () => {
-  // welcomeText.value = !welcomeText.value;
-  // AboutUsText.value = !AboutUsText.value;
   welcomeText.value = true;
   AboutUsText.value = false;
   LocationText.value = false;
@@ -71,21 +71,6 @@ const toggleBookingText = () => {
   BookingText.value = true;
 }
 
-    // <p>hej</p>
-    // <p>{{count}}</p>
-    // <button @click="count++">Increment Count</button>
-    // <p>{{ myData }}</p>
-    // <p>{{ reversedData }}</p>
-    // <button @click="myData = 'Updated Data'" >Update Data</button>
-    // <p>{{ message }}</p>
-// import { ref, computed } from 'vue'
-// const props = defineProps({
-//   message: String,
-// })
-// const myData = ref('Initial Value')
-// const reversedData = computed(() => myData.value.split('').reverse().join(''))
-// const count = ref(0)
-
 </script>
 
 <style scoped>
@@ -99,6 +84,7 @@ const toggleBookingText = () => {
 
 .active {
   text-decoration: underline;
+  font-size: 1.5em !important;
 }
 
 </style>
