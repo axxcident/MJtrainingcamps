@@ -20,6 +20,7 @@
   <AboutUs v-if="AboutUsText" />
   <Location v-if="LocationText" />
   <Phuket v-if="PhuketText" />
+  <Booking v-if="BookingText" />
 </template>
 
 <script setup>
@@ -27,6 +28,7 @@ import yellowPlank from './yellowPlank.vue'
 import AboutUs from './AboutUs.vue';
 import Location from './Location.vue';
 import Phuket from './Phuket.vue';
+import Booking from './Booking.vue'
 
 import { ref } from 'vue'
 const welcomeText = ref(true)
