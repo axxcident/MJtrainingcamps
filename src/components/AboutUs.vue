@@ -42,6 +42,36 @@
     flex-direction: column;
   }
 
+  @media (max-width: 1500px) {
+    .about-square {
+      left: 5rem;
+    }
+  }
+  @media (max-width: 1280px) {
+    .about-square {
+      width: 400px;
+      height: 651px;
+    }
+
+    .about-square h4, p {
+      width: 361px !important;
+    }
+
+    .about-square h4 {
+      font-size: 26px !important;
+    }
+    .about-square p {
+    font-size: 16px !important;
+    }
+    .matte-container {
+      right: -13rem;
+    }
+    .matte-container img {
+      width: 85vw;
+      min-width: 1028px;
+    }
+  }
+
   .about-square h4, p {
     font-family: 'Inika', serif;
     width: 400px;

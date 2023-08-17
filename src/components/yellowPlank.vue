@@ -79,6 +79,12 @@
     margin-left: 7%;
   }
 
+  @media (min-width: 1500px) {
+    .welcome-info {
+      margin-top: 3%;
+    }
+  }
+
   .welcome-info-text {
     color: #ffffff;
     text-shadow: 2px 2px 3px black;
@@ -86,4 +92,22 @@
     font-weight: 600;
     text-align: center;
   }
+
+  @media (max-width: 1100px) {
+    .welcome-info-text {
+      font-size: 1.4em;
+    }
+  }
+  @media (max-width: 860px) {
+    .welcome-info-text {
+      font-size: 1.2em;
+    }
+  }
+  @media (max-width: 700px) {
+    .welcome-info-text {
+      font-size: 1em;
+    }
+  }
+
+
 </style>
