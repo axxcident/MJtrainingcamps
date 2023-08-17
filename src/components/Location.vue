@@ -6,16 +6,16 @@
     </div>
     <h4 class="circles-container-text">Open Gym</h4>
     <div class="circles-container">
-      <img src="BeachGym.jpg" alt="exercise on beach" class="circular-image-1" />
+      <img src="/BeachGym.jpg" alt="exercise on beach" class="circular-image-1" />
       <!-- <img src="matteb.png" alt="Picture of coach"> -->
     </div>
     <h4 class="circles-container-text-2">AC Gym</h4>
     <div class="circles-container-2">
-      <img src="indoorGym.jpg" alt="indoor gym" class="circular-image-2" />
+      <img src="/indoorGym.jpg" alt="indoor gym" class="circular-image-2" />
     </div>
     <h4 class="circles-container-text-3">Thai Boxning</h4>
     <div class="circles-container-3">
-      <img src="young-beautiful-sportive-girl-training-boxing-seaside.jpg" alt="girl training boxing" class="circular-image-3" />
+      <img src="/young-beautiful-sportive-girl-training-boxing-seaside.jpg" alt="girl training boxing" class="circular-image-3" />
     </div>
   </div>
 </template>
